@@ -1,0 +1,50 @@
+{
+	"name": "jukebox-client",
+	"version": "1.0.0",
+	"main": "./src/index.tsx",
+	"repository": "https://github.com/kk-mats/jukebox-client.git",
+	"author": "kk-mats <k.mats.kk@gmail.com>",
+	"dependencies": {
+		"@material-ui/core": "^4.5.0",
+		"@material-ui/icons": "^4.4.3",
+		"@material-ui/styles": "^4.5.0",
+		"axios": "^0.19.0",
+		"react": "^16.9.0",
+		"react-dom": "^16.9.0",
+		"react-router-dom": "^5.1.2"
+	},
+	"devDependencies": {
+		"@types/html-webpack-plugin": "^3.2.1",
+		"@types/react": "^16.9.2",
+		"@types/react-dom": "^16.9.0",
+		"@types/react-router-dom": "^5.1.0",
+		"@types/webpack": "^4.39.1",
+		"@types/webpack-dev-server": "^3.1.7",
+		"@typescript-eslint/eslint-plugin": "^2.0.0",
+		"@typescript-eslint/parser": "^2.0.0",
+		"@typescript-eslint/typescript-estree": "^2.0.0",
+		"eslint": "^6.2.2",
+		"eslint-config-airbnb": "^18.0.1",
+		"eslint-config-prettier": "^6.1.0",
+		"eslint-import-resolver-webpack": "^0.11.1",
+		"eslint-loader": "^3.0.0",
+		"eslint-plugin-import": "^2.18.2",
+		"eslint-plugin-jsx-a11y": "^6.2.3",
+		"eslint-plugin-prettier": "^3.1.0",
+		"eslint-plugin-react": "^7.14.3",
+		"eslint-plugin-react-hooks": "^2.2.0",
+		"html-webpack-plugin": "^3.2.0",
+		"prettier": "^1.18.2",
+		"ts-loader": "^6.0.4",
+		"ts-node": "^8.3.0",
+		"typescript": "^3.6.3",
+		"webpack": "^4.39.2",
+		"webpack-cli": "^3.3.7",
+		"webpack-dev-server": "^3.8.0",
+		"webpack-node-externals": "^1.7.2"
+	},
+	"scripts": {
+		"dev": "webpack-dev-server --config webpack.dev.config.js",
+		"build": "webpack --config webpack.prod.config.js"
+	}
+}
