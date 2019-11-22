@@ -48,7 +48,11 @@ module.exports = {
 	},
 	resolve: {
 		modules: ["node_modules"],
-		extensions: [".ts", ".tsx", ".js"]
+		extensions: [".ts", ".tsx", ".js"],
+		alias: {
+			'react-dom$': 'react-dom/profiling',
+			'scheduler/tracing': 'scheduler/tracing-profiling',
+		}
 	},
 	output: {
 		publicPath: ASSET_PATH,
